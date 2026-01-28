@@ -1,0 +1,23 @@
+{
+  "name": "discord-tickets-middleman",
+  "version": "1.0.0",
+  "description": "Private ticket system + middleman requests (Threads + $add)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "YourName",
+  "license": "MIT"
+}
